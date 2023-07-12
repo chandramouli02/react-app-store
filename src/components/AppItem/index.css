@@ -1,0 +1,35 @@
+.app-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 15px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: white;
+  max-width: 150px;
+  max-height: 150px;
+  margin: 10px;
+}
+
+.app-item:hover {
+  cursor: pointer;
+}
+
+.app-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.app-img {
+  width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .app-item {
+    max-width: 120px;
+    max-height: 120px;
+  }
+}
